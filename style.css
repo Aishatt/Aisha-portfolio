@@ -1,0 +1,86 @@
+
+body{
+  
+overflow-x:hidden ;
+}
+#container{
+    height: 100vh;
+
+}
+nav{
+   position: relative;
+   border-bottom: 1px solid #CFC4C4;
+   color: black;
+}
+#link{
+    position: absolute;
+    right: 0;
+    
+}
+#aside{
+    border-right: 1px solid #CFC4C4; 
+  
+   min-height: 100vh;
+}
+#i-m>p{
+  padding: px;
+    width: 90%;
+    height: 70vh;
+/* or 150% font-family: 'PolySans Trial';*/
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 48px;
+letter-spacing: -0.01em;
+color: #000000;
+
+}
+
+::-webkit-scrollbar {
+    width: 10px ;
+  }
+  
+ /* Track */
+   ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(200, 200, 200); 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #efdfdf;  
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover*/
+  ::-webkit-scrollbar-thumb:hover {
+    background: #f2e5e5; 
+  } 
+  #right{
+     overflow-x: scroll;
+   
+       --card-count: 4;
+       
+  }
+  
+#deck{
+    width: calc(40% * var(--card-count));
+     overflow-y: hidden;
+}
+.card>img{
+       transition: transform 1.3s;
+       border-radius: 20px;
+}
+.card> img:hover{
+    transform: scale(1.05);
+}
+.card{
+    scroll-snap-align: start;
+    margin-bottom: 20px;
+}
+.card>p{
+line-height: 22px;
+letter-spacing: -0.02em;
+
+}
+ 

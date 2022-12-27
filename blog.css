@@ -1,0 +1,155 @@
+#color{
+    background-color:  #E5E5E5;
+}
+nav{
+    position: relative;
+    border-bottom: 1px solid #CFC4C4;
+    color: black;
+    background-color: #e2e2e2;
+    
+ }
+ #link{
+     position: absolute;
+     right: 0;
+     
+ }
+ #back{
+  margin-left: 2.5% ;
+  margin-top: 3%;
+  width: fit-content;
+ }
+ #box{
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    border-radius: 20px;
+    background-image: url('images/car-insurance-coverage-accident-benefits.jpg');
+ }
+ #box2{
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    border-radius: 20px;
+    background-image: url('images/vintage-city-tour-frame-with-tourist-cartoon-illustration.jpg');
+ }
+ #box3,#box4{
+   width: 100%;
+   
+   background-size:contain;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   border-radius: 20px;
+
+}
+#box3{
+    background-image: url('images/car-trip.png') ; 
+     margin: 5rem 0;
+     height: 70vh;
+}
+#box4{
+   background-image: url('images/muster.png');
+   display: flex;
+  justify-content: center;
+   height: 100vh;
+}
+#nxt-m{
+text-align: center;
+width: 50%;
+margin-top: 9%;
+}
+#nxt-m>p,#back{
+  cursor: pointer;
+}
+
+ #qoute,#qoute2{
+    height: 70vh;
+
+border-radius: 40px;
+text-align: center;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+ }
+ #qoute>p,#qoute2>p{
+    font-size: 40px;
+    line-height: 130.7%;
+    width: 50%;
+  
+ }
+ #qoute{
+background: #BDBDBD;
+ }
+ #insight{
+    width: 40%;
+font-size: 18px;
+line-height: 24px; 
+position: relative;
+margin-left: 60%;
+padding-top: 5%;
+ }
+
+#intro{
+  width: 32%; 
+  font-size: 32px;
+line-height: 40px;
+letter-spacing: -0.005em;
+color: #1B1C1B; 
+
+ }
+ #create>img{
+padding: 10px;
+width: 70%;
+ }
+ #create{
+   padding: 10px;
+ right: 0;
+   background: #BDBDBD;
+   border-radius: 16px;
+
+ }
+ #policy{
+   margin-left: 45%;
+ }
+ #create2{
+   padding: 6% 0%;
+ }
+ #secpad,#box{
+   margin-bottom: 3%;
+ }
+ section{
+   margin-bottom: 3%;
+   padding-top: 3%;
+ }
+
+ #row-p >div> p{
+    font-size: 14px;
+ }
+ #line-row{
+position: relative;
+display: flex;
+justify-content: space-between;
+ }
+ #line{
+   margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
+ #circle{
+width: 71%;
+height: 125px;
+border-radius: 50%;
+background-color: white;
+text-align: center;
+padding: 5px;
+ }
+ button{
+  color: #E5E5E5;
+  background: #1B1C1B;
+  padding: 5px;
+ }
+
+ 

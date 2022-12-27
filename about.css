@@ -1,0 +1,37 @@
+#color{
+    background-color:  #E5E5E5;
+    
+}
+nav{
+    position: relative;
+    border-bottom: 1px solid #CFC4C4;
+    color: black;
+    background-color: #e2e2e2;
+    
+ }
+ #link{
+     position: absolute;
+     right: 0;
+     display: inline;
+     
+ }
+ #back{
+  margin-left: 2.5% ;
+  margin-top: 3%;
+ 
+  width: fit-content;
+ }
+ /*#box{
+    width: 90%;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin: auto;
+    background-image: url('images/antelope.png');
+ }*/
+ #img-col1>img{
+    width: 40%;
+    border-radius:16px ;
+     }

@@ -1,0 +1,24 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(PolySans-trial/PolySansTrial-Slim.otf);
+  }
+  @font-face {
+    font-family: myFirstFontb;
+    src: url(PolySans-trial/PolySansTrial-Bulky.otf);
+  }
+  
+  
+h6,h1,h2,h5,h4, #qoute>p,#qoute2>p{
+    font-family: myFirstFontb;
+    
+  }
+ p{
+    font-size: 14px;
+    font-family: myFirstFont;
+  }
+  body{
+    font-family: myFirstFont;
+    cursor:context-menu;
+  }
+  
+ 
