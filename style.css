@@ -2,28 +2,45 @@
 body{
   
 overflow-x:hidden ;
+
 }
 #container{
     height: 100vh;
 
 }
+#color{
+  background: black;
+}
 nav{
    position: relative;
    border-bottom: 1px solid #CFC4C4;
-   color: black;
+  
+   
 }
 #link{
     position: absolute;
     right: 0;
-    
+    color: rgb(255, 255, 255);
 }
 #aside{
     border-right: 1px solid #CFC4C4; 
-  
+    animation-timing-function: ease-in;
+    position: relative;
+    animation: mymove 5s;
+    animation-iteration-count: 1;
    min-height: 100vh;
 }
+@keyframes mymove {
+  from {
+      left: 30px;
+  }
+
+  to {
+      left: 0px;
+  }
+}
 #i-m>p{
-  padding: px;
+  
     width: 90%;
     height: 70vh;
 /* or 150% font-family: 'PolySans Trial';*/
@@ -32,7 +49,7 @@ font-weight: 600;
 font-size: 28px;
 line-height: 48px;
 letter-spacing: -0.01em;
-color: #000000;
+color: #ebe6e6;
 
 }
 
@@ -58,14 +75,13 @@ color: #000000;
   } 
   #right{
      overflow-x: scroll;
-   
-       --card-count: 4;
-       
+    --card-count: 4;     
   }
   
 #deck{
     width: calc(40% * var(--card-count));
-     overflow-y: hidden;
+    overflow-y: hidden;
+     
 }
 .card>img{
        transition: transform 1.3s;
@@ -77,10 +93,25 @@ color: #000000;
 .card{
     scroll-snap-align: start;
     margin-bottom: 20px;
+    
+}
+.card-title{
+  color: #f9d98e;
+}
+.card-body{
+  background-color: black;
+  color: rgb(252, 254, 255);
 }
 .card>p{
 line-height: 22px;
 letter-spacing: -0.02em;
-
 }
+
+.card-img-bottom{
+  opacity:0.1;
+}
+.card-img-bottom:hover{
+  opacity:1;
+}
+
  
