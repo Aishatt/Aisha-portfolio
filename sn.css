@@ -5,54 +5,75 @@
   box-sizing: border-box;
   font-family: "Asap", sans-serif;
 }
-body {
-  background: #1d2146;
-}
+
 section {
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: auto;
 }
-section:nth-child(1) {
-  color: #b6ffff;
+#bimg{
+background-image: url(images/snL.png);
+height: 25vh;
+background-repeat: no-repeat;
+
 }
-section:nth-child(2) {
-  color: #b1b8ee;
-  background: #0b5b5b;
-}
-section:nth-child(3) {
-  color: #72e3e3;
-}
-section:nth-child(4) {
-  color: #c1c5e1;
-  background: #000000;
+
+#sect1 {
+  color: #d6ecf5;
+  background: rgb(2, 84, 112);
+  text-align: center;
 }
 section .container {
-  margin: 100px;
+  margin: auto;
 }
 section h1 {
   font-size: 3rem;
-  margin: 20px;
+  color:rgb(2, 84, 112);  
 }
 section h2 {
-  font-size: 40px;
+  font-size: 35px;
   text-align: center;
   text-transform: uppercase;
 }
 section .text-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+#top{
+  margin-top: 6%;
+
 }
 section .text-container .text-box {
-  margin: 20px;
+  margin: 25px;
   padding: 20px;
-  background: #00c2cb;
+  background: rgb(2, 84, 112);
 }
-section .text-container .text-box h3 {
-  font-size: 30px;
+section .text-container #arch {
+  background: rgb(20, 71, 103);
+  padding: 50px;
+}
+section .text-container #arch p {
+  color: rgb(255, 249, 249);
+  font-size: 20px;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 10px;
+}
+
+section .text-container .text-box h3 {
+  font-size: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color:rgb(242, 146, 108);
+}
+section .text-container .text-box p {
+ color:floralwhite;
+ text-align: center;
+ font-size: 15px;
 }
 
 @media (max-width: 900px) {
@@ -62,6 +83,9 @@ section .text-container .text-box h3 {
   }
   section .text-container {
     flex-direction: column;
+  }
+  section .container {
+    margin: 0px;
   }
 }
 
