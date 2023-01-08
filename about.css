@@ -21,17 +21,10 @@ nav{
  
   width: fit-content;
  }
- /*#box{
-    width: 90%;
-    height: 70vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 20px;
-    margin: auto;
-    background-image: url('images/antelope.png');
- }*/
+ 
  #img-col1>img{
-    width: 40%;
     border-radius:16px ;
+     }
+     #img-col1{
+        border-left: 10px solid rgb(255, 255, 255);
      }

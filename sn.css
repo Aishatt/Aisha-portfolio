@@ -40,16 +40,19 @@ section .text-container {
   justify-content: center;
   align-items: center;
   
-  
 }
 #top{
   margin-top: 6%;
 
 }
 section .text-container .text-box {
-  margin: 25px;
-  padding: 20px;
-  background: rgb(2, 84, 112);
+  margin-right:30px;
+  padding: px;
+  width: 50%;
+  height: 30vh;
+ background:  rgb(2, 84, 112);
+  letter-spacing: 1px;
+  padding-top: 30px;
 }
 section .text-container #arch {
   background: rgb(20, 71, 103);
@@ -71,9 +74,15 @@ section .text-container .text-box h3 {
   color:rgb(242, 146, 108);
 }
 section .text-container .text-box p {
- color:floralwhite;
+ color:rgb(255, 255, 255);
  text-align: center;
  font-size: 15px;
+}
+.roadm{
+  background-color: rgb(184, 244, 244);
+}
+.head{
+  background: #d6ecf5;
 }
 
 @media (max-width: 900px) {
@@ -86,6 +95,12 @@ section .text-container .text-box p {
   }
   section .container {
     margin: 0px;
+  }
+  #bimg h1 {
+    display: none;
+  }
+  #bimg{
+    width: 100%;
   }
 }
 
