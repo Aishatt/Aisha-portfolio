@@ -11,13 +11,6 @@ section {
   display: flex;
   margin: auto;
 }
-#bimg{
-background-image: url(images/snL.png);
-height: 25vh;
-background-repeat: no-repeat;
-
-}
-
 #sect1 {
   color: #d6ecf5;
   background: rgb(2, 84, 112);
@@ -51,7 +44,7 @@ section .text-container .text-box {
   width: 50%;
   height: 30vh;
  background:  rgb(2, 84, 112);
-  letter-spacing: 1px;
+  letter-spacing: px;
   padding-top: 30px;
 }
 section .text-container #arch {
