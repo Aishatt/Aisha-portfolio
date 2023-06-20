@@ -1,10 +1,10 @@
-### Eease Design Company Portfolio ###
+### Portfolio ###
 This Portfolio website is best viewed on desktop screen
 NB: Not mobile responsive
-Still Ongoing
+ Ongoing
 
 ### Deployed on Netlify ###
 https://voluble-trifle-8cc3bb.netlify.app/
 
 ## Lanaguages ##
-HTML,CSS
+HTML-CSS-javascript
